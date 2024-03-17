@@ -20,7 +20,6 @@ metric_repos = [
     "mbox_word_count",
 ]
 
-# Example usage
 for repo in metric_repos:
     repo_url = NBNW_BASE_URL + repo
     clone_or_pull(repo_url, repo)
